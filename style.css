@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Segoe UI light;
+}
+.f-line{
+    max-width: 25rem;
+    margin-bottom: 2rem;
+}
+
+
+/* navbar */
+.nav{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    height: 4rem;
+    font-family: Segoe UI light;
+    line-height: 4rem;
+    
+    
+}
+.nav-score{
+    display: flex;
+    gap: 2rem;
+}
+.nav-target{
+    display: flex;
+    gap: 2rem;
+}
+.content{
+    background: rgb(145, 145, 145);
+    color: rgb(0, 48, 48);
+    text-align: center;
+    /* height: 3rem; */
+}
+
+/* choices */
+.first-section{
+    display: flex;
+}
+.first-choice{
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    border-bottom: 1px solid white;
+    max-width: 23rem;
+    
+    
+    
+}
+.sec-choices{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 7rem;
+    border-bottom: 1px solid white;
+    max-width: 15rem;
+    
+}
+.third-choices{
+    display: flex;
+    gap: 13rem;
+    margin-left: 2rem;
+    max-width: 26rem;
+    
+}
+.choice{
+    margin-bottom: 1rem;
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 20px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+}
+
+.choice:hover{
+    border: 5px solid darkblue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.tracker-container{
+    height: 160px;
+    width: 300px;
+    border: 2px solid orange;
+    /* margin-left: 13rem; */
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    left: 15rem;
+}
+.tracker{
+    display: flex;
+    gap: 4rem;
+    margin-left: 4rem;
+}
+
+
+.note{
+    background-color:cadetblue;
+    color: black;
+    display: inline;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 45rem;
+    
+}
+
